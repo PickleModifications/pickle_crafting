@@ -10,6 +10,15 @@ function ServerCallback(name, cb, ...)
     ESX.TriggerServerCallback(name, cb,  ...)
 end
 
+function CanAccessGroup(data)
+    if not data then return true end
+    local pdata = ESX.GetPlayerData()
+    for k,v in pairs(data) do 
+        if (pdata.job.name == k and pdata.job.grade >= v) then return true end
+    end
+    return false
+end 
+
 RegisterNetEvent(GetCurrentResourceName()..":showNotification", function(text)
     ShowNotification(text)
 end)

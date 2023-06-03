@@ -204,6 +204,7 @@ Config.Props = {
 
 Config.TableTypes = {
     ["default"] = {
+        groups = nil, -- {["police"] = 0, ["ambulance"] = 0}
         item = "crafting_table", -- Set this to the item's name if you'd like it to be spawnable.
         model = `gr_prop_gr_bench_04b`, -- Table model.
         camera = { -- Camera Positioning and Rotation.
@@ -427,6 +428,7 @@ Config.TableTypes = {
         },
     },
     ["drugs"] = {
+        groups = nil, -- {["police"] = 0, ["ambulance"] = 0}
         item = "drug_table", -- Set this to the item's name if you'd like it to be spawnable.
         model = `bkr_prop_coke_table01a`, -- Table model.
         camera = { -- Camera Positioning and Rotation.
@@ -480,7 +482,9 @@ Config.TableTypes = {
         },
     },
     ["stove_no_prop"] = {
+        groups = nil, -- {["police"] = 0, ["ambulance"] = 0}
         model = nil, -- Table model, set to nil to use invisible prop.
+        item = nil, -- Set this to the item's name if you'd like it to be spawnable.
         camera = { -- Camera Positioning and Rotation.
             offset = vector3(0.0, -1.0, 0.5), -- X,Y,Z Offset from center of crafting table.
             rotation = vector3(-25.0, 0.0, 0.0), -- Only change 3rd value to change horizontal rotation.

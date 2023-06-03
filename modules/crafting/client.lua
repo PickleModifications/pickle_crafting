@@ -16,6 +16,11 @@ function ShowCraftingUI(index)
             return 
         end
     end
+    local tableCfg = Config.TableTypes[CurrentTable.data.tableType or "default"]
+    if not CanAccessGroup(tableCfg.groups) then 
+        ShowNotification(_L("no_permission"))
+        return
+    end
     CurrentUI = CurrentTable.index
     ServerCallback("pickle_crafting:getInventory", function(inventory)
         SendConfig()
@@ -32,7 +37,6 @@ function ShowCraftingUI(index)
         })
     end)
     SetNuiFocus(true, true)
-    local tableCfg = Config.TableTypes[CurrentTable.data.tableType or "default"]
     CurrentCam = CreateCraftCam(SpawnedTables[CurrentTable.index], tableCfg.camera.offset, tableCfg.camera.rotation, 500)
 end
 

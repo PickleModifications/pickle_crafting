@@ -12,13 +12,9 @@ Language["de"] = {
     xp_not_level = "Dein wissen ist nicht hoch genug um das herzustellen.",
     parts_missing = "Dir Fehlen Bauteile.",
     no_room = "Du hast nicht genügend Platz für diese Gegenstände.",
-    parts_missing = "Dir Fehlen Bauteile.",
-    cooked = "The item has been cooked, take it out before it starts a fire.",
-    destroyed = "The item you left overcooked has destroyed all items being cooked.",
-    burned = "The item you left overcooked has burned.",
-    exploded = "The item you left overcooked has caused an explosion.",
     cooked = "Der Gegenstand wurde gekocht, nehme ihn heraus, bevor er ein Feuer auslöst.",
     destroyed = "Der Gegenstand, den du übergekocht hast, hat alle anderen Gegenstände, die gekocht werden, zerstört.",
     burned = "Der Gegenstand, den du überkochen ließen, ist verbrannt..",
-    exploded = "Der Gegenstand, den du zu lange gekocht hast, hat eine Explosion verursacht."
+    exploded = "Der Gegenstand, den du zu lange gekocht hast, hat eine Explosion verursacht.",
+    no_permission = "Du hast keine Erlaubnis, dies zu tun."
 }

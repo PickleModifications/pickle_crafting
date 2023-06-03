@@ -12,9 +12,9 @@ Language["en"] = {
     xp_not_level = "You don't have a high enough level to craft this.",
     parts_missing = "You are missing parts.",
     no_room = "You don't have enough room for these items.",
-    parts_missing = "You are missing parts.",
     cooked = "The item has been cooked, take it out before it starts a fire.",
     destroyed = "The item you left overcooked has destroyed all items being cooked.",
     burned = "The item you left overcooked has burned.",
-    exploded = "The item you left overcooked has caused an explosion."
+    exploded = "The item you left overcooked has caused an explosion.",
+    no_permission = "You do not have permission to do this."
 }

@@ -1,7 +1,7 @@
 fx_version "cerulean"
 game "gta5"
 author "Pickle Mods"
-version "v1.2.2"
+version "v1.2.3"
 
 ui_page "nui/index.html"
 
@@ -43,6 +43,6 @@ escrow_ignore {
 
 	-- COMMENT BELOW IF NOT SOURCE --
 
-	"modules/**/*.*",
-	"core/*.*",
+	-- "modules/**/*.*",
+	-- "core/*.*",
 }

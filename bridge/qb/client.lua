@@ -10,6 +10,15 @@ function ShowNotification(text)
 	QBCore.Functions.Notify(text)
 end
 
+function CanAccessGroup(data)
+    if not data then return true end
+    local pdata = QBCore.Functions.GetPlayerData()
+    for k,v in pairs(data) do 
+        if (pdata.job.name == k and pdata.job.grade.level >= v) then return true end
+    end
+    return false
+end 
+
 RegisterNetEvent(GetCurrentResourceName()..":showNotification", function(text)
     ShowNotification(text)
 end)

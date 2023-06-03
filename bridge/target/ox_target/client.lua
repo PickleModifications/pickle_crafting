@@ -1,5 +1,5 @@
 if GetResourceState('ox_target') ~= 'started' or not Config.EnableTarget then return end
-print("HELLO")
+
 function GetModels()
     local models = {}
     for k,v in pairs(Config.TableTypes) do 

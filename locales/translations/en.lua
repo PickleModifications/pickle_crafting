@@ -1,0 +1,20 @@
+Language["en"] = {
+    interact = "[E] - Crafting",
+    interact_2 = "[E] - Crafting  \n [G] - Take Table",
+    interact_fire = "[E] - Extinguish Fire",
+    blueprint_have = "You already have this blueprint memorized.",
+    blueprint_not = "You don't have this blueprint's item.",
+    blueprint_not_learned = "You don't have this blueprint memorized.",
+    blueprint_learned = "You have learned this blueprint!",
+    crafting_already = "You are already crafting this item.",
+    crafting_player_near = "The person crafting this item is not far enough.",
+    crafting_failed = "You failed to craft this item, and lost the parts used.",
+    xp_not_level = "You don't have a high enough level to craft this.",
+    parts_missing = "You are missing parts.",
+    no_room = "You don't have enough room for these items.",
+    parts_missing = "You are missing parts.",
+    cooked = "The item has been cooked, take it out before it starts a fire.",
+    destroyed = "The item you left overcooked has destroyed all items being cooked.",
+    burned = "The item you left overcooked has burned.",
+    exploded = "The item you left overcooked has caused an explosion."
+}

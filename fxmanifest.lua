@@ -43,6 +43,6 @@ escrow_ignore {
 
 	-- COMMENT BELOW IF NOT SOURCE --
 
-	-- "modules/**/*.*",
-	-- "core/*.*",
+	"modules/**/*.*",
+	"core/*.*",
 }

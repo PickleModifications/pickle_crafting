@@ -139,6 +139,7 @@ function GiveRewards(source, quantity, craftingData, rewards)
         local result = math.random(1, 100)
         if craftingData.item.chance < result then 
             ShowNotification(source, _L("crafting_failed"))
+            return
         end
     end
     Inventory.AddItem(source, craftingData.item.name, craftingData.item.amount * quantity, craftingData.item.createItem and craftingData.item.createItem(craftingData) or nil)
